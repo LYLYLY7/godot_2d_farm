@@ -1,3 +1,9 @@
-[gd_resource type="TileSet" format=3 uid="uid://cawyt8rc0njvh"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cawyt8rc0njvh"]
+
+[ext_resource type="Texture2D" uid="uid://fhr1sj62ihjy" path="res://assets/game/tilesets/water.png" id="1_m70i2"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cbdxd"]
+texture = ExtResource("1_m70i2")
 
 [resource]
+sources/0 = SubResource("TileSetAtlasSource_cbdxd")
